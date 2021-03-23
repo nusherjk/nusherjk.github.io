@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap);
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html body {
+    height: 100%;
+}
+
+i {
+    padding: 10px;
+}
+
+img{
+    height: fit-content;
+    width: fit-content;
+}
+
+.header{
+
+    background-color: cadetblue;
+    color: azure;
+    overflow: hidden;
+
+
+    padding: 20px 10px;
+
+
+    top: 0;
+    width: 100%;
+
+}
+.heder-right{
+    padding: 20px;
+    float: right;
+
+}
+
+.heder-right a{
+    font-size: 20px;
+    padding: 10px;
+    color: inherit;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.heder-right a:hover{
+    background-color: #4a797c;
+}
+
+
+.logo {
+    float: left;
+    margin: 0;
+    width: fit-content;
+    font-size: 20px;
+    color: azure;
+    border: azure solid 2px;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: bolder;
+
+}
+
+.cover {
+
+    /* The image used*/
+    background-image: url("FB_IMG_1560202035823.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.intro{
+
+    text-align: center;
+    margin: 30px auto;
+    transition: 1s;
+    height:100%;
+    width:max-content;
+    border-radius: 5px;
+    padding: 50px;
+    border: black solid 2px;
+
+
+}
+
+.title{
+    margin: 0 auto;
+
+    font-size: 50px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.subnote{
+    margin: 0 auto;
+    font-size: 20px;
+}
+.main{
+    margin:0;
+    width: 100%;
+}
+.about{
+    margin: 30px;
+    padding: 50px;
+    width:auto;
+    height: max-content;
+    border-radius: 5px;
+    border: black solid 2px;
+
+}
+.about h1{
+
+    padding: 20px;
+    text-decoration: mediumaquamarine Underline 10px;
+    font-weight: bolder;
+}
+
+.abp{
+    text-align: right;
+
+    position: relative;
+    top:0;
+    display: inline-block;
+    padding: 20px;
+    width: 60%;
+    font-weight: bold;
+}
+
+.abimg{
+    display: inline-block;
+    align-content: center;
+    margin: 30px;
+
+
+}
+.abimg img{
+
+    padding:20px;
+    margin: 10px auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    border: black solid 2px;
+}
+
+.banner{
+    margin: 0 auto;
+    display: block;
+}
+
+
+.section-left{
+    float: left;
+
+}
+
+
+.section-right{
+    float:right;
+
+
+}
+.inblock-display{
+    width: auto;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 5px;
+    border: black solid 2px;
+}
