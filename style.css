@@ -65,21 +65,7 @@ img{
 
 }
 
-.cover {
 
-    /* The image used*/
-    background-image: url("FB_IMG_1560202035823.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-}
 
 .intro{
 
@@ -123,7 +109,7 @@ img{
 .about h1{
 
     padding: 20px;
-    text-decoration: mediumaquamarine Underline 10px;
+    text-decoration:  Underline;
     font-weight: bolder;
 }
 
