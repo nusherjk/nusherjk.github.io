@@ -179,3 +179,17 @@ img{
        width: 25%;
 
 }
+
+
+
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-col{
+    flex-direction: column;
+}
